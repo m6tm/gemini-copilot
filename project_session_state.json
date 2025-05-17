@@ -1,11 +1,12 @@
 {
   "version": "1.0.0",
-  "projectName": null,
-  "projectObjective": null,
+  "projectName": "Gemini Copilot",
+  "projectType": "VS Code Extension",
+  "projectObjective": "Assister les développeurs VS Code en résolvant le problème de l'assistance au codage limitée.",
   "prdDocumentPath": "project_prd.md",
   "tasksDocumentPath": "tasks/tasks.json",
-  "currentWorkflowPhase": "initialization",
-  "lastCompletedStep": null,
+  "currentWorkflowPhase": "taskManagement",
+  "lastCompletedStep": "technicalDocumentationGenerated",
   "pendingAction": {
     "mcpServer": null,
     "toolName": null,
