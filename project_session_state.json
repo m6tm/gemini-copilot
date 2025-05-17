@@ -5,13 +5,16 @@
   "projectObjective": "Assister les développeurs VS Code en résolvant le problème de l'assistance au codage limitée.",
   "prdDocumentPath": "project_prd.md",
   "tasksDocumentPath": "tasks/tasks.json",
-  "currentWorkflowPhase": "taskManagement",
-  "lastCompletedStep": "technicalDocumentationGenerated",
+  "currentWorkflowPhase": "implementation",
+  "lastCompletedStep": "landingPageCreated",
   "pendingAction": {
     "mcpServer": null,
-    "toolName": null,
-    "arguments": null,
-    "expectedResponseType": null
+    "toolName": "execute_command",
+    "arguments": {
+      "command": "yo code",
+      "description": "Initialisation de la structure de l'extension VS Code avec yo code."
+    },
+    "expectedResponseType": "command_output"
   },
   "userInputHistory": {},
   "currentContext": {
@@ -24,5 +27,11 @@
     "errorMessage": null,
     "errorTimestamp": null,
     "recoverySuggestion": null
+  },
+  "taskStatuses": {
+    "FEAT-001": "todo",
+    "FEAT-002": "todo",
+    "FEAT-003": "todo",
+    "FEAT-004": "todo"
   }
 }

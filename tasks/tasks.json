@@ -1,1 +1,56 @@
-[]
+{
+  "meta": {
+    "projectName": "Gemini Copilot",
+    "version": "1.0.0",
+    "source": "project_prd.md",
+    "description": "Tâches générées à partir du PRD pour le projet Gemini Copilot.",
+    "totalTasksGenerated": 4,
+    "tasksIncluded": 4
+  },
+  "tasks": [
+    {
+      "id": "FEAT-001",
+      "title": "Complétion de Code Intelligente",
+      "description": "Implémenter la fonctionnalité de complétion de code intelligente basée sur l'IA.",
+      "status": "todo",
+      "dependencies": [],
+      "priority": "high",
+      "details": "Cette epic couvre l'implémentation de la complétion de code intelligente. Référez-vous à la section 3.1 du PRD (project_prd.md) et à la spécification détaillée de la fonctionnalité : ../03_SPECS/features/feature_spec_FEAT-001.md",
+      "testStrategy": "Tests unitaires pour la logique de suggestion, tests d'intégration avec l'API Gemini, tests manuels dans VS Code.",
+      "subtasks": []
+    },
+    {
+      "id": "FEAT-002",
+      "title": "Génération de Code",
+      "description": "Implémenter la fonctionnalité de génération de code basée sur l'IA.",
+      "status": "todo",
+      "dependencies": [],
+      "priority": "high",
+      "details": "Cette epic couvre l'implémentation de la génération de code. Référez-vous à la section 3.1 du PRD (project_prd.md) et à la spécification détaillée de la fonctionnalité : ../03_SPECS/features/feature_spec_FEAT-002.md",
+      "testStrategy": "Tests unitaires pour la logique de génération, tests d'intégration avec l'API Gemini, tests manuels dans VS Code.",
+      "subtasks": []
+    },
+    {
+      "id": "FEAT-003",
+      "title": "Explication de Code",
+      "description": "Implémenter la fonctionnalité d'explication de code basée sur l'IA.",
+      "status": "todo",
+      "dependencies": [],
+      "priority": "high",
+      "details": "Cette epic couvre l'implémentation de l'explication de code. Référez-vous à la section 3.1 du PRD (project_prd.md) et à la spécification détaillée de la fonctionnalité : ../03_SPECS/features/feature_spec_FEAT-003.md",
+      "testStrategy": "Tests unitaires pour la logique d'explication, tests d'intégration avec l'API Gemini, tests manuels dans VS Code.",
+      "subtasks": []
+    },
+    {
+      "id": "FEAT-004",
+      "title": "Documentation de Code",
+      "description": "Implémenter la fonctionnalité de documentation de code basée sur l'IA.",
+      "status": "todo",
+      "dependencies": [],
+      "priority": "high",
+      "details": "Cette epic couvre l'implémentation de la documentation de code. Référez-vous à la section 3.1 du PRD (project_prd.md) et à la spécification détaillée de la fonctionnalité : ../03_SPECS/features/feature_spec_FEAT-004.md",
+      "testStrategy": "Tests unitaires pour la logique de documentation, tests d'intégration avec l'API Gemini, tests manuels dans VS Code.",
+      "subtasks": []
+    }
+  ]
+}
