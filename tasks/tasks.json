@@ -12,7 +12,7 @@
       "id": "FEAT-001",
       "title": "Complétion de Code Intelligente",
       "description": "Implémenter la fonctionnalité de complétion de code intelligente basée sur l'IA.",
-      "status": "todo",
+      "status": "Done",
       "dependencies": [],
       "priority": "high",
       "details": "Cette epic couvre l'implémentation de la complétion de code intelligente. Référez-vous à la section 3.1 du PRD (project_prd.md) et à la spécification détaillée de la fonctionnalité : ../03_SPECS/features/feature_spec_FEAT-001.md",
