@@ -5,8 +5,8 @@
   "projectObjective": "Assister les développeurs VS Code en résolvant le problème de l'assistance au codage limitée.",
   "prdDocumentPath": "project_prd.md",
   "tasksDocumentPath": "tasks/tasks.json",
-  "currentWorkflowPhase": "implementation",
-  "lastCompletedStep": "generationTestFileCreated",
+  "currentWorkflowPhase": "testing",
+  "lastCompletedStep": "startingAutomatedTests",
   "pendingAction": null,
   "userInputHistory": {},
   "currentContext": {
@@ -22,8 +22,8 @@
   },
   "taskStatuses": {
     "FEAT-001": "Done",
-    "FEAT-002": "todo",
-    "FEAT-003": "todo",
-    "FEAT-004": "todo"
+    "FEAT-002": "Done",
+    "FEAT-003": "Done",
+    "FEAT-004": "Done"
   }
 }
