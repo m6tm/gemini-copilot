@@ -6,16 +6,8 @@
   "prdDocumentPath": "project_prd.md",
   "tasksDocumentPath": "tasks/tasks.json",
   "currentWorkflowPhase": "implementation",
-  "lastCompletedStep": "landingPageCreated",
-  "pendingAction": {
-    "mcpServer": null,
-    "toolName": "execute_command",
-    "arguments": {
-      "command": "yo code",
-      "description": "Initialisation de la structure de l'extension VS Code avec yo code."
-    },
-    "expectedResponseType": "command_output"
-  },
+  "lastCompletedStep": "secureApiKeyManagementImplemented",
+  "pendingAction": null,
   "userInputHistory": {},
   "currentContext": {
     "activeEpicId": null,
