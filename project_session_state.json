@@ -6,7 +6,7 @@
   "prdDocumentPath": "project_prd.md",
   "tasksDocumentPath": "tasks/tasks.json",
   "currentWorkflowPhase": "implementation",
-  "lastCompletedStep": "generatedCodeFormatted",
+  "lastCompletedStep": "generationTestFileCreated",
   "pendingAction": null,
   "userInputHistory": {},
   "currentContext": {

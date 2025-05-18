@@ -23,7 +23,7 @@
       "id": "FEAT-002",
       "title": "Génération de Code",
       "description": "Implémenter la fonctionnalité de génération de code basée sur l'IA.",
-      "status": "todo",
+      "status": "Done",
       "dependencies": [],
       "priority": "high",
       "details": "Cette epic couvre l'implémentation de la génération de code. Référez-vous à la section 3.1 du PRD (project_prd.md) et à la spécification détaillée de la fonctionnalité : ../03_SPECS/features/feature_spec_FEAT-002.md",
