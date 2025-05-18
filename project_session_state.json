@@ -6,7 +6,7 @@
   "prdDocumentPath": "project_prd.md",
   "tasksDocumentPath": "tasks/tasks.json",
   "currentWorkflowPhase": "testing",
-  "lastCompletedStep": "startingAutomatedTests",
+  "lastCompletedStep": "automatedTestsFailedMissingDependency",
   "pendingAction": null,
   "userInputHistory": {},
   "currentContext": {
@@ -15,10 +15,10 @@
     "filesBeingWorkedOn": []
   },
   "errorState": {
-    "hasError": false,
-    "errorMessage": null,
-    "errorTimestamp": null,
-    "recoverySuggestion": null
+    "hasError": true,
+    "errorMessage": "Automated tests failed due to missing system library: libnss3.so",
+    "errorTimestamp": "2025-05-18T19:31:14.000Z",
+    "recoverySuggestion": "Install the missing library (e.g., sudo apt-get install libnss3 on Debian/Ubuntu systems)."
   },
   "taskStatuses": {
     "FEAT-001": "Done",
