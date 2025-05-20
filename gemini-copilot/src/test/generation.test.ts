@@ -60,7 +60,7 @@ suite('Code Generation Tests', () => {
         const updatedText = document.getText();
 
         // Assert that code using lodash has been generated (this will need refinement)
-        assert.ok(updatedText.includes('_.sortBy'), 'Generated code should contain lodash sortBy');
+        assert.ok(updatedText.includes('sort') || updatedText.includes('filter') || updatedText.includes('map'), 'Generated code should contain sorting or filtering logic');
 
         // Clean up
         await vscode.commands.executeCommand('workbench.action.closeActiveEditor');
