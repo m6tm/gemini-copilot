@@ -16,7 +16,12 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:gemini-copilot.setApiKey",
+    "onCommand:gemini-copilot.generateCode",
+    "onCommand:gemini-copilot.explainCode",
+    "onCommand:gemini-copilot.documentCode"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
